@@ -5,7 +5,7 @@
         <div class="ps-main__sidebar">
             <div class="ps-sidebar">
                 <div class="ps-sidebar__top">
-                    <widget-user-welcome />
+                    <widget-user-welcome :companyName="settings.companyName" v-if="settings"/>
                     <widget-earning-sidebar />
                 </div>
                 <div class="ps-sidebar__content">
@@ -25,6 +25,8 @@
 </template>
 
 <script>
+import { mapState } from "vuex";
+
 import HeaderDashboard from "~/components/shared/headers/HeaderDashboard";
 import WidgetUserWelcome from "~/components/shared/widgets/WidgetUserWelcome";
 import WidgetEarningSidebar from "~/components/shared/widgets/WidgetEarningSidebar";
@@ -43,7 +45,15 @@ export default {
         WidgetEarningSidebar,
         WidgetUserWelcome,
         HeaderDashboard
-    }
+    },
+        async created(){
+        await this.$store.dispatch('settings/getSettings');
+    },
+    computed: {
+        ...mapState({
+            settings: state => state.settings.settings[0],
+        }),
+    },
 };
 </script>
 

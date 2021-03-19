@@ -22,7 +22,7 @@
                     </span>
                 </div>
                 <div class="ps-block__content">
-                    <p>Orders</p>
+                    <p>Clientes</p>
                     <h4>
                         254
                         <small class="asc">
@@ -39,7 +39,7 @@
                     </span>
                 </div>
                 <div class="ps-block__content">
-                    <p>Revenue</p>
+                    <p>Ganancias</p>
                     <h4>
                         $6,260
                         <small class="asc">
@@ -56,7 +56,7 @@
                     </span>
                 </div>
                 <div class="ps-block__content">
-                    <p>Earning</p>
+                    <p>Gastos</p>
                     <h4>
                         $2,567
                         <small class="desc">

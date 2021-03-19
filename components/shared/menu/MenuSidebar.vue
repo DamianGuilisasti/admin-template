@@ -21,27 +21,42 @@ export default {
                     icon: 'icon-home'
                 },
                 {
-                    text: 'Products',
+                    text: 'Servicios',
+                    url: '/products',
+                    icon: 'icon-database'
+                },
+                                {
+                    text: 'Portafolio',
+                    url: '/products',
+                    icon: 'icon-database'
+                },
+                                                {
+                    text: 'Clientes',
                     url: '/products',
                     icon: 'icon-database'
                 },
                 {
-                    text: 'Orders',
+                    text: 'Presupuestos',
                     url: '/orders',
                     icon: 'icon-bag2'
                 },
                 {
-                    text: 'Customers',
+                    text: 'Usuarios',
                     url: '/customers',
                     icon: 'icon-users2'
                 },
                 {
-                    text: 'Categories',
+                    text: 'Email',
+                    url: '/categories',
+                    icon: 'icon-users2'
+                },
+                                {
+                    text: 'Gastos',
                     url: '/categories',
                     icon: 'icon-users2'
                 },
                 {
-                    text: 'Settings',
+                    text: 'Configuración',
                     url: '/settings',
                     icon: 'icon-cog'
                 }

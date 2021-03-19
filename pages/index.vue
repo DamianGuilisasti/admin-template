@@ -13,7 +13,7 @@
         </div>
         <div class="ps-section__right">
             <card-statics />
-            <card-top-countries />
+            <!-- <card-top-countries /> -->
         </div>
     </section>
 </template>

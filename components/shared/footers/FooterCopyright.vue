@@ -1,9 +1,9 @@
 <template lang="html">
     <div className="ps-copyright">
-        <img src="~/static/img/logo.png" alt="" />
+        <img src="~/static/img/logo.png" alt="" width="50%" />
         <p>
-            &copy;2021 Marfury Marketplace. <br />
-            All rights reversed.
+            &copy;{{ new Date().getFullYear() }} <a href="https://damianguilisasti.com.ar" target="_blank">Damián Guilisasti.</a><br />
+            Todos los derechos reservados.
         </p>
     </div>
 </template>

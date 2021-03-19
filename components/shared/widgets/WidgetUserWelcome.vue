@@ -5,7 +5,9 @@
         </div>
         <div class="ps-block__right">
             <p>
-                Hello,<a href="#">Soho Store</a>
+                Hola,<a href="#">{{ companyName }}
+                    
+                </a>
             </p>
         </div>
         <div class="ps-block__action">
@@ -18,7 +20,8 @@
 
 <script>
 export default {
-    name: 'WidgetUserWelcome'
+    name: 'WidgetUserWelcome',
+    props: ['companyName']
 };
 </script>
 
